@@ -22,6 +22,22 @@ body {
     margin: 0
 }
 
+/* Arrière-plan transparent pour le graphique radar */
+body, html {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+#container, .chart-container {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+svg {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
 a[href] {
     color: var(--theme-foreground-focus)
 }
